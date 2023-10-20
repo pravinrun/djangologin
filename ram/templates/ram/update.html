@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        {% csrf_token %}
+        <input type="text" name="name"  placeholder="your Name" value="{{key1.name}}"><br><br>
+        <input type="text" name="gmail"  placeholder="your gmail" value="{{key1.gmail}}"><br><br>
+        <input type="text" name="passw"  placeholder="your passw" value="{{key1.passw}}"><br><br>
+        <input type="text" name="mobile"  placeholder="your mobile" value="{{key1.mobile}}"><br><br>
+        <input type="text" name="date"  placeholder="your date" value="{{key1.date}}"><br><br>
+        <input type="submit" value="submit">
+
+    </form>
+    
+    
+</body>
+</html>
